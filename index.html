@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/32d6bf55d1.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Rock Paper Scissors</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Rock, Paper, Scissors</h1>
+      </div>
+
+      <div class="display">
+        <div class="scoreboard">
+          <p id="player-score">Player: 0</p>
+          <p id="computer-score">Computer: 0</p>
+        </div>
+        <p id="result">Let's play Rock, Paper, Scissors! First to 5 wins</p>
+      </div>
+
+      <div class="choices">
+        <button id="rock"><i class="far fa-10x fa-hand-rock"></i></button>
+        <button id="paper"><i class="far fa-10x fa-hand-paper"></i></button>
+        <button id="scissors">
+          <i class="far fa-10x fa-hand-scissors"></i>
+        </button>
+      </div>
+    </div>
+  </body>
 </html>
