@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  background-color: beige;
+  background-color: #EDEDED;
 }
 
 * {
@@ -25,7 +25,7 @@ button {
 
 .display {
   color: white;
-  background-color: darkslategrey;
+  background-color: #444444;
   font-size: 1.5rem;
   padding: 10px;
   border-top: 3px solid black;
